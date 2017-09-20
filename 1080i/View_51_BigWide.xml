@@ -262,7 +262,7 @@
                         <right>-8</right>
                         <top>-8</top>
                         <bottom>-8</bottom>
-                        <texture border="15" colordiffuse="Black">common/rounded-shadow8.png</texture>
+                        <texture border="15" colordiffuse="ff000000">common/rounded-shadow8.png</texture>
                     </control>
                     <control type="image">
                         <width>100%</width>
@@ -307,7 +307,7 @@
                         <right>-8</right>
                         <top>-8</top>
                         <bottom>-8</bottom>
-                        <texture border="15" colordiffuse="Black">common/rounded-shadow8.png</texture>
+                        <texture border="15" colordiffuse="ff000000">common/rounded-shadow8.png</texture>
                     </control>
                     <control type="image">
                         <width>100%</width>
@@ -352,7 +352,7 @@
                         <right>-8</right>
                         <top>-8</top>
                         <bottom>-8</bottom>
-                        <texture border="15" colordiffuse="Black">common/rounded-shadow8.png</texture>
+                        <texture border="15" colordiffuse="ff000000">common/rounded-shadow8.png</texture>
                     </control>
                     <control type="image">
                         <width>100%</width>
@@ -396,7 +396,7 @@
                         <right>-8</right>
                         <top>-8</top>
                         <bottom>-8</bottom>
-                        <texture border="15" colordiffuse="Black">common/rounded-shadow8.png</texture>
+                        <texture border="15" colordiffuse="ff000000">common/rounded-shadow8.png</texture>
                     </control>
                     <control type="image">
                         <width>100%</width>
@@ -440,7 +440,7 @@
                         <right>-8</right>
                         <top>-8</top>
                         <bottom>-8</bottom>
-                        <texture border="15" colordiffuse="Black">common/rounded-shadow8.png</texture>
+                        <texture border="15" colordiffuse="ff000000">common/rounded-shadow8.png</texture>
                     </control>
                     <control type="image">
                         <width>100%</width>
@@ -485,7 +485,7 @@
                         <right>-8</right>
                         <top>-8</top>
                         <bottom>-8</bottom>
-                        <texture border="15" colordiffuse="Black">common/rounded-shadow8.png</texture>
+                        <texture border="15" colordiffuse="ff000000">common/rounded-shadow8.png</texture>
                     </control>
                     <control type="image">
                         <width>100%</width>

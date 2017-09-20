@@ -5,9 +5,10 @@
 	<onload>SetProperty(SkinHelper.WidgetContainer,300)</onload>
 	<onload>SetProperty(SkinHelper.WidgetContainer,301)</onload>
     <onload>RunScript(script.favourites)</onload>
-    <onload>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=300&amp;group=mainmenu|x1111|x1112|x1113|x1114|x1115|x1116|x1117|x1118|x1119)</onload>
 	<oninfo condition="String.Contains(Container(300).ListItem.Property(widgetPath,advanced.emulator.launcher)">ActivateWindow(1128)</oninfo>
 	<oninfo condition="String.Contains(Container(301).ListItem.Property(widgetPath,advanced.emulator.launcher)">ActivateWindow(1128)</oninfo>
+    <onload>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=300&amp;group=mainmenu|x1101|x1102|x1103|x1104|x1105|x1106|x1107|x1108|x1109|x1111|x1112|x1113|x1114|x1115|x1116|x1117|x1118|x1119)</onload>
+    <onunload>ClearProperty(SkinHelper.WidgetContainer)</onunload>
 
     <controls>
         <include>GlobalBackground</include>
@@ -31,7 +32,7 @@
         <control type="group">
             <include>Animation.FadeIn</include>
             <include>Animation.FadeOut</include>
-            <visible>Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml) | Window.IsVisible(script-script.extendedinfo-DialogInfo.xml) | Window.IsVisible(script-script.extendedinfo-VideoList.xml) | Window.IsVisible(DialogVideoInfo.xml) | Window.IsVisible(DialogMusicInfo.xml) </visible>
+            <visible>Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml) | Window.IsVisible(script-script.extendedinfo-DialogInfo.xml) | Window.IsVisible(script-script.extendedinfo-VideoList.xml) | Window.IsVisible(DialogVideoInfo.xml) | Window.IsVisible(DialogMusicInfo.xml) | Window.IsVisible(DialogAddonInfo.xml)</visible>
             <include condition="!Skin.HasSetting(home.vertical)">GlobalBackgroundExtended</include>
             <include condition="!Skin.HasSetting(home.vertical)">Furniture_Header</include>
             <include condition="!Skin.HasSetting(home.vertical)">Furniture_NowPlaying</include>

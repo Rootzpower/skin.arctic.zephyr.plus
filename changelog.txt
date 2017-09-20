@@ -5,6 +5,27 @@ Minor fixes
 [B]2.3.8[/B]
 Changes for skin helper update (due on repo soon)
 
+[B]2.3.13[/B]
+Make hubs backwards compatible with Eminence (hubs set in eminence can be used in Arctic)
+
+[B]2.3.12[/B]
+Fix edit colour when unfocused
+Fix Black colour def to ff00000
+Add backup and restore skin settings options
+
+[B]2.3.11[/B]
+Add ability to customise widget item limit
+
+[B]2.3.10[/B]
+Add multiple hub widgets
+
+[B]2.3.9[/B]
+Fix smart playlist buttons
+Fix list and wide show plot options
+
+[B]2.3.8[/B]
+Changes for skin helper update (due on repo soon)
+
 [B]2.3.7[/B]
 Add playerprocessinfo dialog
 Add additional web-dl and tv source flags

@@ -670,7 +670,7 @@
                                 <textcolor>Dark2</textcolor>
                                 <label fallback="19055">19055</label>
                                 <aligny>center</aligny>
-                                <visible>IsEmpty(ListItem.Property(AudioLanguage.1))</visible>
+                                <visible>IsEmpty(ListItem.AudioLanguage) + IsEmpty(ListItem.SubtitlesLanguage)</visible>
                             </control>
                             <control type="grouplist">
                                 <orientation>horizontal</orientation>
@@ -681,8 +681,8 @@
                                 <control type="image">
                                     <width>28</width>
                                     <height>28</height>
-                                    <texture>$INFO[ListItem.Property(AudioLanguage.1),flags/lang/,.png]</texture>
-                                    <visible>!IsEmpty(ListItem.Property(AudioLanguage.1))</visible>
+                                    <texture>$INFO[ListItem.AudioLanguage,flags/lang/,.png]</texture>
+                                    <visible>!IsEmpty(ListItem.AudioLanguage)</visible>
                                 </control>
                                 <control type="image">
                                     <width>28</width>
@@ -711,8 +711,8 @@
                                 <control type="image">
                                     <width>28</width>
                                     <height>28</height>
-                                    <texture>$INFO[ListItem.Property(SubtitleLanguage.1),flags/lang/,.png]</texture>
-                                    <visible>!IsEmpty(ListItem.Property(SubtitleLanguage.1))</visible>
+                                    <texture>$INFO[ListItem.SubtitlesLanguage,flags/lang/,.png]</texture>
+                                    <visible>!IsEmpty(ListItem.SubtitlesLanguage)</visible>
                                     <colordiffuse>ff777777</colordiffuse>
                                 </control>
                                 <control type="image">
