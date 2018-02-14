@@ -19,6 +19,8 @@ Add ability to customise widget item limit
 Add multiple hub widgets
 
 [B]2.3.9[/B]
+Plus version files added
+Minor fixes
 Fix smart playlist buttons
 Fix list and wide show plot options
 
