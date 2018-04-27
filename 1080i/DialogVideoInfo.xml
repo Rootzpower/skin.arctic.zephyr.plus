@@ -148,12 +148,16 @@
                         <include>DefInfoButtons</include>
                         <visible>!IsEmpty(ListItem.Trailer)</visible>
                     </control>
-					
-					<control type="button" id="7">
-						<description>Set my rating</description>
-						<label>$VAR[SetSee]</label>
+                    
+                    <control type="button" id="146">
+                        <description>Special Features button</description>
+                        <label>31282</label>
                         <include>DefInfoButtons</include>
-					</control>
+                        <visible>System.HasAddon(plugin.video.specialfeatures)</visible>
+                        <visible>String.IsEqual(Window(home).Property(SpecialFeatures.Visible),true)</visible>
+                        <onclick>Action(close)</onclick>
+                        <onclick>RunScript(plugin.video.specialfeatures,listitem)</onclick>
+                    </control>
 
                     <control type="button" id="53">
                         <include>DefInfoButtons</include>
