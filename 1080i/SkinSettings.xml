@@ -198,7 +198,7 @@
                         <selected>Skin.HasSetting(home.submenu2)</selected>
                         <onclick>Skin.ToggleSetting(home.submenu2)</onclick>
                     </control>
-                    
+
 
                     <!-- Fanart -->
                     <control type="radiobutton" id="9223" description="Show fanart">
@@ -308,7 +308,7 @@
                         <selected>Skin.HasSetting(osd.showinfoonpause)</selected>
                         <onclick>Skin.ToggleSetting(osd.showinfoonpause)</onclick>
                     </control>
-					<control type="radiobutton" id="9239" description="Open music visualisation">
+                    <control type="radiobutton" id="9239" description="Open music visualisation">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9103)</visible>
                         <include>DefSettingsButton</include>
@@ -411,84 +411,84 @@
                         <selected>Skin.HasSetting(furniture.logo)</selected>
                         <onclick>Skin.ToggleSetting(furniture.logo)</onclick>
                     </control>
-					<control type="radiobutton" id="9282" description="Studios Record Labels">
+                    <control type="radiobutton" id="9282" description="Studios Record Labels">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9106)</visible>
                         <include>DefSettingsButton</include>
-                        <label>Show studio and record labels logos</label>
+                        <label>31305</label>
                         <selected>Skin.HasSetting(furniture.studiorecord)</selected>
                         <onclick>Skin.ToggleSetting(furniture.studiorecord)</onclick>
                     </control>
-					
-					<control type="radiobutton" id="9300" description="Studios color">
+
+                    <control type="radiobutton" id="9300" description="Studios color">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9106)</visible>
                         <include>DefSettingsButton</include>
-                        <label>Show coloured logos</label>
+                        <label>31306</label>
                         <selected>Skin.HasSetting(furniture.studiocolor)</selected>
                         <onclick>Skin.ToggleSetting(furniture.studiocolor)</onclick>
-						<enable>Skin.HasSetting(furniture.studiorecord)</enable>
+                        <enable>Skin.HasSetting(furniture.studiorecord)</enable>
                     </control>
-					
-					<control type="radiobutton" id="9289" description="Show CharacterArt ">
+
+                    <control type="radiobutton" id="9289" description="Show CharacterArt ">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9106)</visible>
                         <include>DefSettingsButton</include>
-                        <label>Show character art</label>
+                        <label>31307</label>
                         <selected>Skin.HasSetting(furniture.cart)</selected>
                         <onclick>Skin.ToggleSetting(furniture.cart)</onclick>
                     </control>
-					
-					<control type="radiobutton" id="9283" description="Show DiscArt">
+
+                    <control type="radiobutton" id="9283" description="Show DiscArt">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9106)</visible>
                         <include>DefSettingsButton</include>
-                        <label>Show disc art</label>
+                        <label>31308</label>
                         <selected>Skin.HasSetting(furniture.discart)</selected>
                         <onclick>Skin.ToggleSetting(furniture.discart)</onclick>
                     </control>
-					
-					<!--novo-->
-					<control type="radiobutton" id="9284" description="Animate DiscArt">
+
+                    <!--novo-->
+                    <control type="radiobutton" id="9284" description="Animate DiscArt">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9106)</visible>
                         <include>DefSettingsButton</include>
-                        <label>Animate discart on infopage</label>
+                        <label>31309</label>
                         <selected>Skin.HasSetting(furniture.discartAnimFull)</selected>
                         <onclick>Skin.ToggleSetting(furniture.discartAnimFull)</onclick>
-						<enable>Skin.HasSetting(furniture.discart)</enable>
-                    </control>
-					
-					<control type="radiobutton" id="9287" description="Animate DiscArt when playing">
-                        <width>1310</width>
-                        <visible>ControlGroup(9100).HasFocus(9106)</visible>
-                        <include>DefSettingsButton</include>
-                        <label>Just when content is playing</label>
-                        <selected>Skin.HasSetting(furniture.discartAnim)</selected>
-                        <onclick>Skin.ToggleSetting(furniture.discartAnim)</onclick>
-						<enable>Skin.HasSetting(furniture.discart)+Skin.HasSetting(furniture.discartAnimFull)</enable>
+                        <enable>Skin.HasSetting(furniture.discart)</enable>
                     </control>
 
-					
-					<control type="radiobutton" id="9286" description="Music OSD disc">
+                    <control type="radiobutton" id="9287" description="Animate DiscArt when playing">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9106)</visible>
                         <include>DefSettingsButton</include>
-                        <label>Don't animate music OSD disc</label>
+                        <label>31310</label>
+                        <selected>Skin.HasSetting(furniture.discartAnim)</selected>
+                        <onclick>Skin.ToggleSetting(furniture.discartAnim)</onclick>
+                        <enable>Skin.HasSetting(furniture.discart)+Skin.HasSetting(furniture.discartAnimFull)</enable>
+                    </control>
+
+
+                    <control type="radiobutton" id="9286" description="Music OSD disc">
+                        <width>1310</width>
+                        <visible>ControlGroup(9100).HasFocus(9106)</visible>
+                        <include>DefSettingsButton</include>
+                        <label>31311</label>
                         <selected>Skin.HasSetting(furniture.OSDcdArtAnim)</selected>
                         <onclick>Skin.ToggleSetting(furniture.OSDcdArtAnim)</onclick>
                     </control>
-					
-					
-					<control type="radiobutton" id="9285" description="Disable path">
+
+
+                    <control type="radiobutton" id="9285" description="Disable path">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9106)</visible>
                         <include>DefSettingsButton</include>
-                        <label>Don't show path on info page</label>
+                        <label>31312</label>
                         <selected>!Skin.HasSetting(furniture.showpath)</selected>
                         <onclick>Skin.ToggleSetting(furniture.showpath)</onclick>
                     </control>
-					
+
                     <control type="radiobutton" id="9267" description="Reflections">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9106)</visible>
@@ -505,35 +505,35 @@
                         <selected>Skin.HasSetting(furniture.overlayinfo)</selected>
                         <onclick>Skin.ToggleSetting(furniture.overlayinfo)</onclick>
                     </control>
-					
-					 <control type="radiobutton" id="9280" description="Fanart or landscape">
+
+                    <control type="radiobutton" id="9280" description="Fanart or landscape">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9106)</visible>
                         <include>DefSettingsButton</include>
-                        <label>Use fanarts instead of landscapes on tvshows</label>
+                        <label>31313</label>
                         <selected>Skin.HasSetting(furniture.fanartvshows)</selected>
                         <onclick>Skin.ToggleSetting(furniture.fanartvshows)</onclick>
                     </control>
-					
-					<control type="radiobutton" id="9281" description="Fanart or landscape">
+
+                    <control type="radiobutton" id="9281" description="Fanart or landscape">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9106)</visible>
                         <include>DefSettingsButton</include>
-                        <label>Use fanarts instead of landscapes on movies</label>
+                        <label>31314</label>
                         <selected>Skin.HasSetting(furniture.fanartmovies)</selected>
                         <onclick>Skin.ToggleSetting(furniture.fanartmovies)</onclick>
                     </control>
 
-					
-					<control type="button" id="9279" description="Set Games extra Art Dir">
-						<width>1310</width>
-						<visible>ControlGroup(9100).HasFocus(9106)</visible>
-						<include>DefSettingsButton</include>
-						<label>$LOCALIZE[15016] - $LOCALIZE[15019] $LOCALIZE[573]</label>
-						<label2>$INFO[Skin.String(gamesartworklocation)]</label2>
-						<onclick>Skin.SetPath(gamesartworklocation)</onclick>
-		            </control>	
-	
+
+                    <control type="button" id="9279" description="Set Games extra Art Dir">
+                        <width>1310</width>
+                        <visible>ControlGroup(9100).HasFocus(9106)</visible>
+                        <include>DefSettingsButton</include>
+                        <label>$LOCALIZE[15016] - $LOCALIZE[15019] $LOCALIZE[573]</label>
+                        <label2>$INFO[Skin.String(gamesartworklocation)]</label2>
+                        <onclick>Skin.SetPath(gamesartworklocation)</onclick>
+                    </control>
+
                     <!-- Extras -->
                     <control type="button" id="9271" description="Startup Video">
                         <width>1310</width>
@@ -584,7 +584,7 @@
                         <selected>Skin.HasSetting(hide.busydialog)</selected>
                         <onclick>Skin.ToggleSetting(hide.busydialog)</onclick>
                     </control>
-                    
+
 
                     <!-- Backup / Restore -->
                     <control type="button" id="9281" description="Backup">

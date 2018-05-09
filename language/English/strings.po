@@ -861,3 +861,43 @@ msgstr ""
 msgctxt "#31282"
 msgid "Special Features"
 msgstr ""
+
+msgctxt "#31305"
+msgid "Show studio and record labels logos"
+msgstr ""
+
+msgctxt "#31306"
+msgid "Show coloured logos"
+msgstr ""
+
+msgctxt "#31307"
+msgid "Show characterart"
+msgstr ""
+
+msgctxt "#31308"
+msgid "Show discart"
+msgstr ""
+
+msgctxt "#31309"
+msgid "Animate discart on infopage"
+msgstr ""
+
+msgctxt "#31310"
+msgid "Just when content is playing"
+msgstr ""
+
+msgctxt "#31311"
+msgid "Don't animate music OSD disc"
+msgstr ""
+
+msgctxt "#31312"
+msgid "Don't show path on info page"
+msgstr ""
+
+msgctxt "#31313"
+msgid "Use fanarts instead of landscapes on tvshows"
+msgstr ""
+
+msgctxt "#31314"
+msgid "Use fanarts instead of landscapes on movies"
+msgstr ""
